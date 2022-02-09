@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Videos | Hackepedia</title>
+		
+		<meta charset="UTF-8">
+		<meta name="author" content="Jed Romero">
+		<meta name="keywords" content="HTML, CSS, Internet, Cybercrime, Malware, Social Media, Encyclopedia, Youtube, Official Hackepedia Channel, videos">
+		<meta name="revised" content="12-10-2021">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="icon" href="../images/icon.png" type="image/gif">
+		<link rel="stylesheet" href="../css/youtubePage.css">
+		<link rel="stylesheet" href="../css/globalLayout.css"> <!--Global Settings for Navigation Bar, Footer, Advertisement/s, etc.-->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="headerBar">
+			<!-- Logo -->
+			<div id="homeIcon">
+				<img src="../images/icon.png" type="image/gif" height=60px width=63px></img>
+				<h1>Hackepedia</h1>	
+				<p>Your awareness, our commitment</p>								
+			</div>
+	
+			<!-- Navigation Tab -->
+			<div id="navigationTab">			
+				<ul id="navigationTabList">
+					<li id="navigation-Home"><a href="../index.html">HOME</a></li>
+					<li id="navigation-Articles"><a href="../htdocs/articlesPage.html">ARTICLES</a></li>
+					<li id="navigation-About"><a href="../htdocs/aboutPage.html">ABOUT</a></li>
+					<li id="navigation-Youtube"><a href="../htdocs/youtubePage.html">YOUTUBE</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="youtubeDesc">
+			<div id="div1">
+				<a href=https://www.youtube.com/channel/UC1YhbVkK6Sq_LItci43U4wQ>
+				<img src="../images/youtubePFP.jpg" width=150px height=150px alt="YouTube Channel Picture"></img>
+				<div id="blockTwo">
+						<h4 id="youtubeName">Hackepedia Official Youtube Channel</h4>
+				</a>
+					<p id="videoCounter">Uploaded 0 videos</p>
+				</div>
+			</div>
+			<div id="div2">
+			<p>This channel is where informative videos about the articles enlisted in this site are uploaded.
+			Go check them out by scrolling down or by clicking the name/picture above!</p>
+			</div>
+		</div>
+		<div id="youtubeVideos">
+			<p>No videos available yet</p>
+		</div>
+		
+		 <!-- Advertisement Section! -->
+		<a id="closeButton" href=#ad><b>Close Ad</a> <!--Button that will close the video when activated-->
+		<a id="openButton" href=#placeholderDiv>Open Ad</a> <!--Unclickable button so that this state will be permanent once #closeButton is activated-->
+		
+		<div id="ad">
+			<video controls loop autoplay muted width=426 height=240>
+				<source src="../mmfiles/advertisement.mp4" type="video/mp4">
+				Browser issue .-.
+			</video>
+		</div>
+		
+		<div id="placeholderDiv">
+			You won't see this text on site. Just a placeholder somewhat to use for the open-close ad mechanism.
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<hr>
+			<ul id="icons">
+				<li id="facebook"><a href="../htdocs/error-404.html"></a></li>
+				<li id="twitter"><a href="../htdocs/error-404.html"></a></li>
+				<li id="youtube"><a href="https://www.youtube.com/channel/UC1YhbVkK6Sq_LItci43U4wQ"></a></li>
+				<li id="mail"><a href="mailto: jfrromero@src.pshs.edu.ph"></a></img></li>
+			</ul>
+			<p id="copyrightText">Copyright &copy; Jed Romero 9-Sodium</p>
+		</footer>
+	</body>
+</html>

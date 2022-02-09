@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Articles | Hackepedia</title>
+		
+		<meta charset="UTF-8">
+		<meta name="author" content="Jed Romero">
+		<meta name="keywords" content="HTML, CSS, Internet, Cybercrime, Malware, Social Media, Encyclopedia, Articles">
+		<meta name="revised" content="12-10-2021">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="icon" href="../images/icon.png" type="image/gif">
+		<link rel="stylesheet" href="../css/articlesPage.css">
+		<link rel="stylesheet" href="../css/globalLayout.css"> <!--Navigation menu + Footer-->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="headerBar">
+			<!-- Logo -->
+			<div id="homeIcon">
+				<img src="../images/icon.png" type="image/gif" height=60px width=63px></img>
+				<h1>Hackepedia</h1>	
+				<p>Your awareness, our commitment</p>								
+			</div>
+	
+			<!-- Navigation Tab -->
+			<div id="navigationTab">			
+				<ul id="navigationTabList">
+					<li><a href="../index.html">HOME</a></li>
+					<li><a href="../htdocs/articlesPage.html">ARTICLES</a></li>
+					<li><a href="../htdocs/aboutPage.html">ABOUT</a></li>
+					<li><a href="../htdocs/youtubePage.html">YOUTUBE</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id=heading>
+			<h2>LIST OF ARTICLES</h2>
+		</div>
+		
+		<a href="../htdocs/article_1.html">
+		<div id="articleOne">
+			<div id="articleOne-bg">
+				<img id="articleBG" src="../images/article_1-figure1.jpg"></img>
+			</div>
+			<div id="blockTwo">
+				<div id="articleOne-title">
+					<h4>Malware</h4>
+				</div>
+				<div id="articleOne-preview">
+					<p><b>Malware <i>(Malicious Software)</i></b> is an umbrella term of cybercrime that involves a 
+				software or code intended <b>to harm an infected gadget.</b> Malware developers use malware for 
+				stealing user information, damaging the infected hardware, accessing the victim’s computer, 
+				obtaining financial gain, getting entertainment, and many more. There are various types of malware: 
+				the <b>virus, worm, spyware, ransomware, trojan horse, adware,</b> and<b> botnet.</b></p>
+				</div>
+			</div>
+		</div>
+		</a>
+			
+		 <!-- Advertisement Section! -->
+		<a id="closeButton" href=#ad><b>Close Ad</a> <!--Button that will close the video when activated-->
+		<a id="openButton" href=#placeholderDiv>Open Ad</a> <!--Unclickable button so that this state will be permanent once #closeButton is activated-->
+		
+		<div id="ad">
+			<video controls loop autoplay muted width=426 height=240>
+				<source src="../mmfiles/advertisement.mp4" type="video/mp4">
+				Browser issue .-.
+			</video>
+		</div>
+		
+		<div id="placeholderDiv">
+			You won't see this text on site. Just a placeholder somewhat to use for the open-close ad mechanism.
+		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<hr>
+			<ul id="icons">
+				<li id="facebook"><a href="../htdocs/error-404.html"></a></li>
+				<li id="twitter"><a href="../htdocs/error-404.html"></a></li>
+				<li id="youtube"><a href="https://www.youtube.com/channel/UC1YhbVkK6Sq_LItci43U4wQ"></a></li>
+				<li id="mail"><a href="mailto: jfrromero@src.pshs.edu.ph"></a></img></li>
+			</ul>
+			<p id="copyrightText">Copyright &copy; Jed Romero 9-Sodium</p>
+		</footer>
+	</body>
+</html>

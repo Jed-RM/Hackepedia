@@ -1,0 +1,199 @@
+body{
+	background-image: url('../images/background.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 25px 25px 25px 25px;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+#headerBar{
+	display: block;
+	width: 100%;
+}
+
+/*Logo*/
+#homeIcon > img, #homeIcon > h1, #homeIcon > p{
+	display: inline-block;
+	color: white;
+}
+
+#homeIcon{
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+	background-color: #121212;
+	box-shadow: 0px 0px 40px #121212;
+	margin: -25px -25px 10px -25px;
+	padding: 25px;
+}
+
+#homeIcon > img{
+	float: left;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: "Courier New", monospace;
+	padding-left: 15px;
+	clear: left;
+	margin-top: 0;
+}
+
+#homeIcon > p {
+	font-style: italic;
+	font-size: 16px;
+	opacity: 0.4;
+	letter-spacing: 0.5px;
+	margin: -36px 0 0 76px;
+	padding: 0;
+	clear: left;
+	float: left;
+}
+
+
+/*Navigation Tab*/
+#navigationTabList{
+	list-style-type: none;
+	text-decoration: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#navigationTabList li{
+	margin-top: -10px;
+	z-index: -1;
+	display: inline;
+	float: left;
+	width: 25%;
+	height: 40px;
+	background-color: #121212;
+	box-shadow: 0px 0px 10px #121212;
+}
+
+#navigationTabList li > a{
+	z-index: 1;
+	display: block;
+	color: #00FFFF;
+	text-decoration: none;
+	padding: 8px;
+	text-align: center;
+}
+
+#navigationTabList a:hover{
+	z-index: 2;
+	text-decoration: none;
+	color: black;	
+	background-color: #00FFFF;
+	box-shadow: 0px 0px 10px #00FFFF;
+}
+
+/*Advertisement :)*/
+#ad, #placeholderDiv, #closeButton, #openButton{
+	position: fixed;
+}
+
+#ad{
+	display: inline;
+	right: 5px;
+	top: 5px;
+}
+
+#placeholderDiv{
+	visibility: hidden;
+}
+
+#closeButton, #openButton{
+	text-decoration: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	padding: 5px;
+	background-color: hsl(0, 100%, 100%, 0.05);
+	z-index: 2;
+}
+
+#closeButton{
+	text-align: center;
+	right: 20px;
+	top: 20px;
+	width: 100px;
+	height: 18px;
+}
+#openButton{
+	display: none;
+}
+
+#closeButton:active, #openButton:active{
+	box-shadow: 0px 0px 5px white;
+}
+
+#ad:target{
+	display: none;
+}
+
+/*Footer*/
+footer{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+	clear: none;
+	display: inline-block; 
+	margin: 50px -25px -25px -25px;
+	padding: 25px;
+	box-shadow: 0px 0px 40px #121212;
+	background-color: #121212;
+}
+
+#icons > a{
+	text-decoration: none;
+}
+
+footer > p{
+	font-size: 16px;
+}
+
+footer > hr{
+	width: 50%;
+}
+
+/*Image Sprites*/
+#icons li, #icons a{
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	max-width: 100%;
+}
+
+#facebook{
+	background: url('../images/library/icon.gif') no-repeat top right;
+}
+
+#twitter{
+	background: url('../images/library/icon.gif') no-repeat top left;
+}
+
+#youtube{
+	background: url('../images/library/icon.gif') no-repeat -64px 0px;
+}
+
+#mail{
+	background: url('../images/library/icon.gif') no-repeat -32px 0px;
+}
+
+#facebook:hover{
+	background: url('../images/library/icon.gif') no-repeat -96px -32px;
+}
+
+#twitter:hover{
+	background: url('../images/library/icon.gif') no-repeat 0px -32px;
+}
+
+#mail:hover{
+	background: url('../images/library/icon.gif') no-repeat -32px -32px;
+}
+
+#youtube:hover{
+	background: url('../images/library/icon.gif') no-repeat -64px -32px;
+}

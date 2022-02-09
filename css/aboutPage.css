@@ -1,0 +1,94 @@
+/*Content (Layout)*/
+#blockOne, #blockTwo, #blockThree{
+	display: inline-block;
+	position: relative;
+	margin: -50px -25px -25px -25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 40px #121212;
+	padding: 50px 25px 50px 25px;
+}
+
+#blockOne{
+	z-index: -2;
+	background-image: url('../images/aboutpage_bg001.jpg');
+}
+
+#blockTwo{
+	z-index: -3;
+	background-image: url('../images/aboutpage_bg002.jpg');
+	background-size: 1800px 1200px;
+}
+
+#blockThree{
+	z-index: -4;
+	background-color: #0d2c3f;
+	margin: -50px -25px -70px -25px;
+	padding: 50px 25px 50px 25px;
+	width: 100%;
+}
+
+/*Content (Text Fortmat)*/
+h2 {
+	font-size: 7vw;
+	margin-bottom: 0px;
+}
+
+#blockOne > p{
+	font-size: 18px;
+	text-align: justify;
+	width: 50%;
+}
+
+#blockTwo-heading{
+	display: block;
+	float: right;
+	width: 100%;
+}	
+
+#blockTwo-heading > p{
+	font-style: italic;
+	margin-top: -10px;
+	margin-bottom: 25px;
+	opacity: 0.3;
+	position: relative;
+}
+
+#blockTwo > .staffName{
+	font-size: 32px;
+	margin: 0;
+}	
+
+#blockTwo > .staffRole{
+	margin-top: 0;
+	font-size: 18px;
+	font-style: italic;
+	letter-spacing: 0.5px;
+}
+
+#blockTwo > .staffDesc{
+	font-size: 18px;
+	text-align: justify;
+	width: 35%;
+	float: right;
+}
+
+#blockThree > h2{
+	text-align: center;
+}
+#blockThree > p{
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+
+#email, #number{
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+}
+
+/*Footer*/
+#footer {
+	margin-top: 0px!important; /*Cancels out the bottom margin stated in globalLayout.css*/
+}
